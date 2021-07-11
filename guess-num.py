@@ -1,6 +1,10 @@
 #猜數字遊戲
 
 import random
+start = input('請決定隨機數字範圍開始值')
+end = input('請決定隨機數字範圍結束值')
+start = int(start)
+end = int(end)
 
 r = random.randint(1, 100)
 count = 0
